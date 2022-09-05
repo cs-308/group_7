@@ -9,6 +9,6 @@ int main(){
     while(n<0){
         cin>>n;
     }
-    cout<<"The factorial of n is "<< factorial(n)<< endl;
+    printf("The factorial of n is %d\n",factorial(n));
     return 0;
 }
